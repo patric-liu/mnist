@@ -1,4 +1,4 @@
-# Neural Network Library with MNIST implementation
+# Neural Network Library with implementation for MNIST
 
 This is a library designed to use backpropogation to train an MLP network to
 classify handwritten digits using the MNIST database. With this said, it can be
@@ -9,7 +9,7 @@ This code is written for Python 3 and requires numpy, pickle, gzip, matplotlib,
 and scipy
 
 
-# Files:
+## Files:
 
 network.py - Main class which contains all functionality of the neural network,
 			 and some helper classes/functions
@@ -27,7 +27,7 @@ mnist.pkl.gz - Compressed MNIST image data
 best_networks - folder containing the best performing parameters
 
 
-# Details/Notes
+## Details/Notes
 
 This library can train any feedforward network shape and uses a cross-entropy
 cost function and L2 regularization by default. Various options for 
