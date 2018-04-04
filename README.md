@@ -39,3 +39,12 @@ included.
 
 When importing a user 'MNIST' image, the format must be the same as MNIST,
 that is, 28x28 pixels with black text on a white background
+
+## Results
+
+The highest evaluation accuracy of 98.34% was acheived with a 784-150-50-100-10 Perceptron Network, which is comparable to state-of-the-art results which did not used convolution or the use of distortions to artificially expand the training dataset. 
+
+
+
+
+
